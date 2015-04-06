@@ -22,6 +22,8 @@ This document is an **EARLY DRAFT**.
 
 Last modified: 2015 Apr 7
 
+(c)2015 Outernet Inc.
+
 Channel elements
 ================
 
