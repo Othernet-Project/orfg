@@ -2,18 +2,18 @@
 Outernet RSS format guidlines
 =============================
 
-The Outernet RSS format guidelines (ORFOG) is a set of guidelines for content
+The Outernet RSS format guidelines (ORFG) is a set of guidelines for content
 publishers. Its aim is to make conversion of content for publication on
-Outernet easier and more reliable. ORFOG builds on `RSS 2.0 specification`_,
+Outernet easier and more reliable. ORFG builds on `RSS 2.0 specification`_,
 and familiarity with that standard is assumed.
 
 While we use the same set of elements as RSS 2.0 specification, some elements
 have a slightly different meaning/usage. In this document, we will cover the
-semantic differences between RSS 2.0 specification and ORFOG guidelines, and
+semantic differences between RSS 2.0 specification and ORFG guidelines, and
 briefly touch on content authoring.
 
 In addition to elements required by the RSS 2.0 specification, elements
-discussed below are all **required** by ORFOG.
+discussed below are all **required** by ORFG.
 
 Status
 ======
@@ -30,7 +30,7 @@ Channel elements
 title
 -----
 
-This element commonly contains the channel title. In ORFOG, this element
+This element commonly contains the channel title. In ORFG, this element
 shoudld contain the **publisher name**.
 
 Example::
@@ -57,7 +57,7 @@ bars.
 language
 --------
 
-In ORFOG this element should always be included, even though it is not required
+In ORFG this element should always be included, even though it is not required
 by RSS 2.0 specification.
 
 copyright
