@@ -94,15 +94,26 @@ software.
 Item elements
 =============
 
-The ``title`` element is not required and will not be used. The only required
-elements are ``description`` and ``pubDate``.
+The ``title`` element is not required and will not be used. The required
+elements are ``link``, ``description``, and ``pubDate``.
+
+link
+----
+
+Location of the page on the web. This location does not need to point to an
+actual page. The portion from the last slash (not including the slash), up to
+the end of the URL is ignored. See `description`_ for more information.
 
 description
 -----------
 
 This element is required, and should contain the full HTML markup of a page.
-All external assets such as images, CSS, and JavaScript should be referenced
-using absolute URLs.  Note that enclosures will not be parsed.
+External assets may use either absolute or relative URLs. 
+
+When using relative URLs, they are resolved based on the value of the ``link``
+element. For example, if ``link`` is 'http://example.com/static/assets/' and
+the asset URL is 'images/panda.jpg', the absolute URL of the asset becomes
+'http://example.com/static/assets/images/panda.jpg'.
 
 See `Content authoring considerations`_ section for further guidelines
 regarding content.
